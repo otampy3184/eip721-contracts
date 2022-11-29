@@ -1,6 +1,5 @@
 import { expect } from "chai";
 import hre from "hardhat";
-import { ERC721__factory } from "../typechain-types";
 
 describe("EIP721 Test", () => {
     let MyNFTContractFactory, MyNFTContract: any, owner: any, addr1: any, addr2: any, addr3: any, addrs: any[], addrZero: any
